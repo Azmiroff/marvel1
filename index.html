@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h3 class="h3 pt-4 pb-2" align="center">Movies Catalog</h3>
+
+            <div class="row g-0">
+                <div class="col-sm-6 col-md-4 border p-3">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ave">
+                    <input  type="email" class="form-control mt-3" id="findrate" aria-describedby="emailHelp" placeholder="5">
+
+                    <select class="form-select mt-3" aria-label="Default select example">
+                        <option selected>Alll</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+
+                      <select class="form-select mt-3" aria-label="Default select example">
+                        <option selected>Rating (hight to low)</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+
+                      <button type="button" class="btn btn-primary w-100 mt-3">Search</button>
+
+                      <h3 class="h3 pt-3 text-start fs-2">Bookmarked movies</h3>
+
+                      <ul class="list-group">
+                        <li class="list-group-item fw-bold">
+                            Avengers: Infinity War
+                            <div>
+                                <button type="button" class="btn btn-danger mt-2">Remove</button>
+                            </div>
+                        </li>
+                        <li class="list-group-item fw-bold">
+                            The Avengers
+                            <div>
+                                <button type="button" class="btn btn-danger mt-2">Remove</button>
+                            </div>
+                        </li>
+                        <li class="list-group-item fw-bold">
+                            12 Years a Slave
+                            <div>
+                                <button type="button" class="btn btn-danger mt-2">Remove</button>
+                            </div>
+                        </li>
+                      </ul>
+
+                </div>
+                <div class="col-6 col-md-8 border">
+                    <p class="fw-bold fs-5 p-2 mb-0">Search result:20</p>
+                    <div class="alert alert-success m-lg-2" role="alert">
+                        Uce the form on the left to search for a movie
+                    </div>
+                    <div id="wrapper" class="row">
+
+                    </div>
+
+                </div>
+              </div>
+        </div>
+    </header>
+    <script src="./js/movies.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
