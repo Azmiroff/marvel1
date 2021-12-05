@@ -5,6 +5,7 @@ let result = cutMovies.sort((a, b) => String(a.Title).toLowerCase() > String(b.T
 
 const elWrapper =document.querySelector("#wrapper");
 
+
 for (let i = 0; i < cutMovies.length; i++) {
 
     var newList = document.createElement("div");
